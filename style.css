@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero {
+    background-image: url('img/DSC07028.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 
+        2px 2px 0 #000, /* Тень справа и снизу (черная) */
+        -1px -1px 0 #000, /* Тень слева и сверху (черная) */
+        -1px 1px 0 #000, /* Тень слева и снизу (черная) */
+        1px -1px 0 #000; 
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.hero p {
+    font-size: 24px;
+}
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.about {
+    background-color: #333;
+    color: #fff;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.service {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.portfolio {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.portfolio img {
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

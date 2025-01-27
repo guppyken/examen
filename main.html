@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Фото и Видео Услуги</title>
+
+</head>
+<body>
+    <header>
+        <h1>Фото и Видео Услуги</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Профессиональные Фото и Видео Услуги</h1>
+        <p>Запечатлейте важные моменты своей жизни</p>
+    </div>
+    <div class="about">
+    <section id="about" class="section">
+        <h2>О нас</h2>
+        <p>Мы предоставляем высококачественные фото и видео услуги для любого повода. Наша команда профессионалов всегда готова запечатлеть лучшие моменты вашей жизни.</p>
+    </section>
+    </div>
+    <section id="services" class="section">
+        <h2>Услуги</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Свадебная съемка</h3>
+                <p>Запечатлейте важный день вашей жизни с нашей профессиональной свадебной съемкой.</p>
+            </div>
+            <div class="service">
+                <h3>Корпоративные мероприятия</h3>
+                <p>Снимем любые корпоративные события, от конференций до вечеринок.</p>
+            </div>
+            <div class="service">
+                <h3>Личные фотосессии</h3>
+                <p>Организуем персональные фотосессии для вас и ваших близких.</p>
+            </div>
+        </div>
+    </section>
+    <div class="portfolio">
+    <section id="portfolio" class="section">
+        <h2>Портфолио</h2>
+        <div class="portfolio">
+            <img src="img/main-image.jpg" alt="Пример работы 1">
+            <img src="img/example4.jpg" alt="Пример работы 2">
+            <img src="img/example1.jpg" alt="Пример работы 3">
+            <img src="img/event.jpg" alt="Пример работы 4">
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Связь с нами</h2>
+        <div class="contact-form">
+            <form action="send-email.php" method="POST">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
